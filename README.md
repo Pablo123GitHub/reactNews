@@ -14,5 +14,11 @@ npm install
 ```
 
 All the React dependencies will be installed. Next you 
-can go to http://localhost:8080/ to see live changes of your React app.
+can get the app started with : 
+
+```
+npm start
+```
+
+You will see live changes on http://localhost:8080/ 
 
