@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 
 const title = 'Minimal Boilerplate for React';
 
 ReactDOM.render(
-    <div> {title}</div>,
+    <App> {title}</App>,
     document.getElementById('app')
 );
 
