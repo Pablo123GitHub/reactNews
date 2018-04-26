@@ -1,6 +1,6 @@
-# Simple React Boilerplate
+# Create a React App to display a news feed (in progress)
 
-Following the steps described in this article : 
+Got started with a simple react boilerplate: 
 
 [The Minimal React + Webpack 4 + Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
 
