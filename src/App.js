@@ -12,7 +12,7 @@ class App extends Component {
 
     render(){
         return (
-            <News>Something from App.js </News>
+            <News/>
         )
     }
 }

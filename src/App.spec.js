@@ -1,9 +1,11 @@
+import React from 'react'
+import App from './App';
+import News from './../Components/News';
 
 
-
-describe('Local state', ()=>{
-   it('is a test', ()=>{
-      console.log("hey", expect(true).to.equal(true))
-      expect(true).to.equal(true);
-   }) ;
+describe('App Component', () => {
+   it('checks that the News component is being rendered once', ()=>{
+     const wrapper = shallow(<App/>);
+     expect(wrapper.find(News)).to.have.length(1);
+   });
 });

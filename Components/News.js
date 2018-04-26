@@ -4,7 +4,11 @@ class News extends Component {
 
     render(){
         return (
-            <div>this message is coming from NEWS components</div>
+            <div>
+                <div test="testmessage">
+                    this message is coming from NEWS components
+                </div>
+            </div>
         )
     }
 
