@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import News from './Components/News';
 
 class App extends Component {
 
@@ -10,11 +11,8 @@ class App extends Component {
     }
 
     render(){
-
-
         return (
-            <div>Something from App.js </div>
-
+            <News>Something from App.js </News>
         )
     }
 }
