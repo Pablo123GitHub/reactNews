@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import News from './Components/News';
+import News from '../Components/News';
 
 class App extends Component {
 
